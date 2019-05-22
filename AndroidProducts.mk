@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/CUBOT/KING_KONG/
+LOCAL_PATH := device/CUBOT/KING_KONG
 
 PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_KING_KONG.mk

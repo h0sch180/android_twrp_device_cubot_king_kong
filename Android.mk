@@ -14,10 +14,11 @@
 # limitations under the License.
 #
 
-ifneq ($(filter MAX,$(TARGET_DEVICE)),)
+ifneq ($(filter KING_KONG,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/CUBOT/KING_KONG/
+LOCAL_PATH := device/CUBOT/KING_KONG
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 endif
+
