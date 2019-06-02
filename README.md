@@ -18,10 +18,3 @@ the way to do:
 
 - make -j# recoveryimage [# : no. of cpu core]
 ```
-
-
-### Note:
-**Touch does only work with sideload**
-```
-fastboot boot recovery.img
-```
